@@ -1,0 +1,83 @@
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+.post-byline {
+    font-size: 11px;
+    margin-top: 0.5em;
+}
+
+
+
+blockquote {
+    border-left: 1px solid #ddd;
+    margin: 0 0 1.571em 0.786em;
+    padding-left: 0.786em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2057B5;
+}
+
+
+
+.sidebar-left, .sidebar-right {
+    padding: 0 1%;
+}
+
+.sidebar-left {
+    padding-left: 2%;
+    float: left;
+    width: 20%;
+}
+
+body > div {
+    display: flex;
+}
+
+.content {
+    width: 60%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+.sidebar-right {
+    width: 20%;
+}
+
+p, li {
+    font-size: 14px;
+    line-height: 1.571em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar p, .sidebar li {
+    font-size: 13px;
+}
+
+.sidebar-right {
+    border-left: 1px solid lightgrey;
+}
+
+.sidebar-left {
+    border-right: 1px solid lightgrey;
+}
+.header {
+    background: teal;
+    border-bottom: 1px solid lightgrey;
+}
+
+.site-title a {
+    color: white;
+}
+.post-title {
+    margin-bottom: 1px;
+}
+.unformatted-list {
+    list-style-type: none;
+}

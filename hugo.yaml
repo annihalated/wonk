@@ -1,0 +1,10 @@
+baseURL: 'https://example.com'
+languageCode: 'en-us'
+title: 'Wonk'
+theme: 'wonk'
+sectionPagesMenu: 'main'
+
+
+taxonomies:
+  category: categories
+  tag: tags
