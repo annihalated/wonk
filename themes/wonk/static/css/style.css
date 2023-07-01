@@ -27,13 +27,12 @@ a {
 
 
 
-.sidebar-left, .sidebar-right {
+.sidebar {
     padding: 0 1%;
 }
 
 .sidebar-left {
     padding-left: 2%;
-    float: left;
     width: 20%;
 }
 
@@ -48,6 +47,8 @@ body > div {
 }
 .sidebar-right {
     width: 20%;
+    border-left: 1px solid lightgrey;
+
 }
 
 p, li {
@@ -58,10 +59,6 @@ p, li {
 
 .sidebar p, .sidebar li {
     font-size: 13px;
-}
-
-.sidebar-right {
-    border-left: 1px solid lightgrey;
 }
 
 .sidebar-left {
@@ -81,3 +78,17 @@ p, li {
 .unformatted-list {
     list-style-type: none;
 }
+
+.main, body {
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 767px) {
+    .main {
+        display: block;
+    }
+    .sidebar, .content {
+        border: none;
+        width: 100%;
+    }
+  }
