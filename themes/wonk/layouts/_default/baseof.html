@@ -7,16 +7,17 @@
         
         
         <div class="main">
-        <div class="sidebar sidebar-left">
-            {{- partial "sidebar-left.html" . -}}
-        </div>
-        <div class="content">
-            {{- block "main" . }}{{- end }}
-        </div>
+            
+            <div class="content">
+                {{- block "main" . }}{{- end }}
+            </div>
 
-        <div class="sidebar sidebar-right">
-            {{- partial "sidebar-right.html" . -}}
-        </div>
+            <div class="sidebar sidebar-right">
+                {{- partial "sidebar-right.html" . -}}
+            </div>
+            <div class="sidebar sidebar-left">
+                {{- partial "sidebar-left.html" . -}}
+            </div>
         </div>
         {{- partial "footer.html" . -}}
         {{- partial "script.html" . -}}

@@ -4,13 +4,26 @@
     width: 100%;
 }
 
+img {
+    width: 100%;
+}
 .post-byline {
     font-size: 11px;
     margin-top: 0.5em;
 }
 
 
+.sidebar-left {
+    order: 1;
+}
 
+.sidebar-right {
+    order: 3;
+}
+
+.content {
+    order: 2;
+}
 blockquote {
     border-left: 1px solid #ddd;
     margin: 0 0 1.571em 0.786em;
@@ -30,6 +43,7 @@ a {
 
 .sidebar {
     padding: 0 1%;
+    min-height: 100vh;
 }
 
 .sidebar-left {
@@ -93,6 +107,7 @@ p, li {
         border: none;
         box-sizing: border-box;
         width: 100%;
+        min-height: fit-content;
     }
   }
   
