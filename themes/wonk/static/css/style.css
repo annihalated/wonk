@@ -109,6 +109,10 @@ p, li {
         width: 100%;
         min-height: fit-content;
     }
+
+    .sidebar {
+        margin-left: 1em;
+    }
   }
   
 
