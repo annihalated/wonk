@@ -1,3 +1,4 @@
+
 .title {
     text-align: center;
     width: 100%;
@@ -86,9 +87,13 @@ p, li {
 @media only screen and (max-width: 767px) {
     .main {
         display: block;
+        box-sizing: border-box;
     }
     .sidebar, .content {
         border: none;
+        box-sizing: border-box;
         width: 100%;
     }
   }
+  
+
