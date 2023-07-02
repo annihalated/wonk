@@ -2,7 +2,7 @@
 title: "Martin Amis"
 date: 2023-07-01T04:00:09+05:30
 draft: false
-categories: Fiction
+categories: Literature
 ---
 
 One of my favourite writers, Martin Amis, died [recently](https://www.theguardian.com/books/2023/may/20/martin-amis-obituary). In a substantial way, Amis taught me to write. On the shelf in front of me, there are three books: Money (1984), The Moronic Inferno (1986), and Experience (2000). While Money is merely a little dog-eared, the pages of Experience are crowded with sticky notes, tabs, and underlinings. Amis's painfully self-aware, precise, graphomaniacal voice gave me a sense of literature, a sense of decorum, and a sense of what it was to be young. Alongside his always-dark extroversion, he exuded gravity. He was funny and detested the humourless. To quote a devastating footnote from _Experience_: 
