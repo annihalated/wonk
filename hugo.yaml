@@ -8,3 +8,5 @@ sectionPagesMenu: 'main'
 taxonomies:
   category: categories
   tag: tags
+
+paginate: 2

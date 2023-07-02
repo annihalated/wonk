@@ -1,18 +1,64 @@
+/* Layout */
+.main, body {
+    margin: 0;
+    padding: 0;
+    background: #fcfcfc;
 
-.title {
-    text-align: center;
-    width: 100%;
+}
+
+.header {
+    height: 15vh;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+/* Main elements */
+
+blockquote {
+    border-left: 1px solid #ddd;
+    margin: 0 0 1.571em 0.786em;
+    padding-left: 0.786em;
 }
 
 img {
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #2057B5;
+}
+/* Header */
+
+.header {
+    padding-left: 5%;
+    clear: both;
+}
+
+.header h1, .header h3 {
+    height: 20em;
+}
+
+.headline {
+    font-size: 40px;
+}
+
+.site-title {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style:dotted;
+}
+
+.site-description {
+    font-size: 70%;
+    color: #4a525a;
 }
 .post-byline {
     font-size: 11px;
     margin-top: 0.5em;
 }
 
-
+/* Ordering the elements to allow for responsiveness */
 .sidebar-left {
     order: 1;
 }
@@ -24,20 +70,12 @@ img {
 .content {
     order: 2;
 }
-blockquote {
-    border-left: 1px solid #ddd;
-    margin: 0 0 1.571em 0.786em;
-    padding-left: 0.786em;
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a {
-    text-decoration: none;
-    color: #2057B5;
-}
+
 
 
 
@@ -49,6 +87,7 @@ a {
 .sidebar-left {
     padding-left: 2%;
     width: 20%;
+    border-right: 1px solid lightgrey;
 }
 
 body > div {
@@ -76,17 +115,6 @@ p, li {
     font-size: 13px;
 }
 
-.sidebar-left {
-    border-right: 1px solid lightgrey;
-}
-.header {
-    background: teal;
-    border-bottom: 1px solid lightgrey;
-}
-
-.site-title a {
-    color: white;
-}
 .post-title {
     margin-bottom: 1px;
 }
@@ -94,10 +122,9 @@ p, li {
     list-style-type: none;
 }
 
-.main, body {
-    margin: 0;
-    padding: 0;
-}
+
+
+/* Media Queries  */
 @media only screen and (max-width: 767px) {
     .main {
         display: block;
@@ -110,9 +137,26 @@ p, li {
         min-height: fit-content;
     }
 
+    .header {
+        border: none;
+    }
+
     .sidebar {
         margin-left: 1em;
     }
   }
-  
 
+
+.pagination {
+    list-style-type: none;
+    text-align: center;
+
+    
+}
+
+.pagination li {
+    display: inline;
+    font-size: 16px;
+    margin: 2px;
+    padding: 2px;
+}
