@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-left {
     padding-left: 2%;
-    width: 20%;
+    width: 10%;
     border-right: 1px solid lightgrey;
 }
 
@@ -96,12 +96,12 @@ body > div {
 }
 
 .content {
-    width: 60%;
+    width: 65%;
     padding-right: 2.5%;
     padding-left: 2.5%;
 }
 .sidebar-right {
-    width: 20%;
+    width: 15%;
     border-left: 1px solid lightgrey;
 
 }
