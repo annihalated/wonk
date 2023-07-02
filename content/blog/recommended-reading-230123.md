@@ -1,7 +1,7 @@
 ---
 title: "Recommended Reading (23rd January 2023)"
 slug: "Recommended Reading 230123"
-date: 2023-07-02T19:45:08+05:30
+date: 2023-01-23
 draft: false
 categories: Roundup
 ---
