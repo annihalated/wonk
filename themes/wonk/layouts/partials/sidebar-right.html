@@ -1,7 +1,13 @@
 <h4>Pages</h4>
 {{- range site.Menus.main }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{- end }}
+{{- end }}
+
+<h4>Categories</h4>
+{{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+   <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+{{end}}
+
 <h4>Recent Posts</h4>		
 
 {{- range ( where site.RegularPages "Section" "blog" | first 10 ) }}
