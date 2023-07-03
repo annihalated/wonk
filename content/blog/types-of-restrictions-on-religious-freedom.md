@@ -2,7 +2,7 @@
 title: "Types of Restrictions on Religious Freedom"
 slug: "Types of Restrictions on Religious Freedom"
 date: 2023-07-02T22:07:58+05:30
-draft: false
+draft: true
 categories: Law
 ---
 Restrictions on religious freedom in all shapes and sizes. 
