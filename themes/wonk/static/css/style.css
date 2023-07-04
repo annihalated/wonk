@@ -35,9 +35,6 @@ a {
     clear: both;
 }
 
-.header h1, .header h3 {
-    height: 20em;
-}
 
 .headline {
     font-size: 40px;
@@ -131,6 +128,10 @@ p, li {
         display: block;
         box-sizing: border-box;
     }
+    .header {
+        min-height: fit-content;
+        
+    }
     .sidebar, .content {
         border: none;
         box-sizing: border-box;
@@ -140,6 +141,7 @@ p, li {
 
     .header {
         border: none;
+        display: inline-block;
     }
 
     .sidebar {
