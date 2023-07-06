@@ -6,7 +6,7 @@ draft: false
 categories: Law
 ---
 
-Since 1930, Wisconsin's constitution has allowed the Governor to veto appropriations bills "in whole or in part": a phrase the Wisconsin Supreme Court has interpreted to mean (with some minor restrictions) that the Governor can strike out individual words in a manner that produces [strange results](https://apnews.com/article/evers-veto-400-years-wisconsin-school-funding-67a7847e4a24ea86f7d16123356f770d):
+Since 1930, Wisconsin's constitution has allowed the Governor to veto appropriations bills "in whole or in part": a phrase the Wisconsin Supreme Court has interpreted to mean that the Governor can strike out individual words in a manner that produces [strange results](https://apnews.com/article/evers-veto-400-years-wisconsin-school-funding-67a7847e4a24ea86f7d16123356f770d):
 
 > ...Gov. Tony Evers struck a hyphen and “20” to change the end date for a $325 per-student spending increase from 2025 to 2425.
 
