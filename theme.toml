@@ -3,21 +3,13 @@
 
 name = "Wonk"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/annihalated/wonk/blob/master/LICENSE"
+description = "A Hugo theme for nostalgic blogging"
 homepage = "http://example.com/"
-tags = []
+tags = ["blog"]
 features = []
 min_version = "0.114.0"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
-
-  
+  name = "Nihal Sahu"
+  homepage = "https://nihalsahu.net"
